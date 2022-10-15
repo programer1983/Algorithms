@@ -1,0 +1,28 @@
+// Is an array a subset of another array
+
+// Write a function that checks if the second array is a subset of the first one.
+// That is, are there elements of the second array in the first.
+
+// Input: Number[] & String[], Number[] & String[]
+
+// Output: Boolean
+
+// function arraySubset(source, subset) {
+//   if (source.length < subset.length){
+//     return false
+//   }
+
+//   for(let i = 0; i < subset.length; i++){
+//     const index = source.indexOf(subset[i])
+//     if (index === -1){
+//         return false
+//     }
+//     delete source[index]
+//   }
+//   return true
+// }
+
+// console.log(arraySubset([2, 1, 3], [1, 2, 3])) // -> true
+// console.log(arraySubset([2, 1, 1, 3], [1, 2, 3])) // -> true
+// console.log(arraySubset([1, 1, 1, 3], [1, 3, 3])) // -> false
+// console.log(arraySubset([1, 2], [1, 2, 3])) // -> false
